@@ -1,0 +1,48 @@
+/* header */
+
+header{
+    position: fixed; /* 画面に固定 */
+    top: 0; /* 上に固定 */
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #0077cc;
+}
+
+/* content */
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+}
