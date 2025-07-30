@@ -1,0 +1,37 @@
+1. ブランチを作成して切り替える
+
+git checkout -b feature/test-branch
+これで新しい作業用ブランチが作られて切り替わるよ
+
+2. ブランチ上で変更を加えてコミットする
+例えばファイル編集して保存
+
+git add .
+
+git commit -m "featureブランチでの変更"
+
+3. ブランチをリモートにプッシュする
+
+git push -u origin feature/test-branch
+4. GitHub上で「プルリクエスト」を作成してみる
+GitHubのリポジトリページで、先ほどプッシュしたブランチが検出されるはず
+
+「Compare & pull request」のボタンが出るのでクリック
+
+プルリクエスト（PR）を作成してレビュー依頼の流れを体験
+
+5. マージ（統合）する
+レビューが終わったらGitHub上でメインブランチ（main）にマージ
+
+あるいは、ローカルでgit merge feature/test-branchを実行してもOK
+
+6. ローカルのmainに戻って更新を取り込む
+
+git checkout main
+git pull origin main
+これらを一通りやってみると
+ブランチの意味が理解できる
+
+プルリクの作成・マージフローがわかる
+
+GitHubでのチーム開発の基本が掴める
