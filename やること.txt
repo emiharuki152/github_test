@@ -1,2 +1,4 @@
 ・github_testフォルダ内にtest.html,test.cssの作成
 ・github_testフォルダの初期化
+
+・コンフリクトの解消から
