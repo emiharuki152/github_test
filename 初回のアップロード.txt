@@ -1,5 +1,0 @@
-5. GitHubにアップロード（push）
-
-git push -u origin main
-
-※ 初回プッシュ時は -u をつけることで、以降は git push だけでOKになります。
